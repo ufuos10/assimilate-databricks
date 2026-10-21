@@ -1,5 +1,8 @@
 from databricks import sql
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 
 def querydb(query="SELECT * FROM default.diamonds LIMIT 2"):
@@ -13,7 +16,7 @@ def querydb(query="SELECT * FROM default.diamonds LIMIT 2"):
             cursor.execute(query)
             result = cursor.fetchall()
 
-        for row in result:
-            print(row)
+            for row in result:
+                print(row)
 
-    return result
+            return result

@@ -3,6 +3,7 @@
 import click
 from dblib.querydb import querydb
 
+
 # build a click group
 @click.group()
 def cli():

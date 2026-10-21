@@ -1,14 +1,31 @@
+# pytest
+# pylint
+# click
+# databricks
+# databricks-cli
+# ipython
+# databricks-sql-connector
+# databricks-connect==10.4.*
+# fastapi
+# uvicorn[standard]
+# dask
+# dask[distributed]
+# jupyter
+# s3fs
+# bokeh
+# streamlit
+
+
 pytest
 pylint
+black
 click
-databricks
-databricks-cli
-ipython
+databricks-sdk
+databricks-connect
 databricks-sql-connector
-databricks-connect==10.4.*
+ipython
 fastapi
 uvicorn[standard]
-dask
 dask[distributed]
 jupyter
 s3fs
